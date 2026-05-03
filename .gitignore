@@ -1,0 +1,43 @@
+# ─── Model Weights (too large for git) ───────────────────────────
+Backend/weight/
+!Backend/weight/.gitkeep
+Backend/model/*.pth
+Backend/model/*.pt
+Backend/model/*.bin
+
+# ─── User-verified dataset files ─────────────────────────────────
+Backend/verified/
+!Backend/verified/.gitkeep
+
+# ─── Python ──────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ─── Environment & Secrets ───────────────────────────────────────
+.env
+*.env.local
+
+# ─── OS Junk ─────────────────────────────────────────────────────
+.DS_Store
+**/.DS_Store
+Thumbs.db
+
+# ─── IDE ─────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+
+# ─── Conda ───────────────────────────────────────────────────────
+.conda/
+
+# ─── Temporary audio files ───────────────────────────────────────
+Backend/temp_audio.wav
+Backend/ws_audio_*.wav
+Backend/df_audio_*.wav

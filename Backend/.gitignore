@@ -1,0 +1,10 @@
+__pycache__
+.DS_Store
+.venv
+*.pyc
+
+# Conda
+.conda/
+
+# Jupyter
+.ipynb_checkpoints/
