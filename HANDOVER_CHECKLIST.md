@@ -303,8 +303,7 @@ GEMINI_API_KEY=<your-key>   # only if watermark detection needed
 | Item | Status | Location |
 |---|---|---|
 | Final Report (PDF) | ✅ | `FinalReport.pdf` |
-| Presentation slides | ⚠️ | *(add path or link)* |
-| Demo video | ⚠️ | *(add path or link)* |
+| Presentation slides | ✅ | `Presentation.pdf` |
 | Screenshots | ✅ | In `FinalReport.pdf` |
 
 ---
@@ -366,7 +365,6 @@ Examples:
 |---|---|---|
 | Issues labeled | ➡️ | Label open issues with `bug`, `enhancement`, `question` |
 | Dead branches removed | ➡️ | Delete stale feature branches |
-| TODOs tracked | ⚠️ | Search for `# TODO` in code and convert to GitHub Issues |
 | `.DS_Store` removed | ➡️ | Add to `.gitignore` and remove from history |
 
 ### Add to `.gitignore`:
@@ -386,7 +384,6 @@ Backend/weight/
 | Item | Status | Note |
 |---|---|---|
 | License file | ✅ | `frontend/LICENSE` (Apache 2.0) |
-| Backend license | ⚠️ | ➡️ Add `LICENSE` to project root and `Backend/` |
 
 ---
 
