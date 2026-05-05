@@ -74,7 +74,7 @@ The backend exposes a **FastAPI** REST + WebSocket server. The Android frontend 
 ## Project Structure
 
 ```
-CyberSec/
+DeepfakeDetection/
 ├── Backend/
 │   ├── server.py              # FastAPI app — REST + WebSocket endpoints
 │   ├── detector.py            # Main orchestrator (DeepFakeDetector class)
@@ -124,8 +124,8 @@ CyberSec/
 
 ### 1. Clone & enter the project
 ```bash
-git clone <repo-url>
-cd CyberSec
+git clone https://github.com/Transyltooniaa/DeepfakeDetection.git
+cd DeepfakeDetection
 ```
 
 ### 2. Create and activate conda environment
@@ -142,7 +142,7 @@ pip install -r Backend/requirements.txt
 
 Place GenConViT model weights in `Backend/model/`:
 ```
-Backend/model/
+Backend/weight/
 ├── genconvit_ed_inference.pth
 └── genconvit_vae_inference.pth
 ```
