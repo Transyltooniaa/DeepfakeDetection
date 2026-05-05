@@ -124,7 +124,7 @@ DeepfakeDetection/
 
 ### 1. Clone & enter the project
 ```bash
-git clone <repo-url>
+git clone https://github.com/Transyltooniaa/DeepfakeDetection.git
 cd DeepfakeDetection
 ```
 
@@ -142,7 +142,7 @@ pip install -r Backend/requirements.txt
 
 Place GenConViT model weights in `Backend/model/`:
 ```
-Backend/model/
+Backend/weight/
 ├── genconvit_ed_inference.pth
 └── genconvit_vae_inference.pth
 ```
