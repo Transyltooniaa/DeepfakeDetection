@@ -74,7 +74,7 @@ The backend exposes a **FastAPI** REST + WebSocket server. The Android frontend 
 ## Project Structure
 
 ```
-CyberSec/
+DeepfakeDetection/
 ├── Backend/
 │   ├── server.py              # FastAPI app — REST + WebSocket endpoints
 │   ├── detector.py            # Main orchestrator (DeepFakeDetector class)
@@ -125,7 +125,7 @@ CyberSec/
 ### 1. Clone & enter the project
 ```bash
 git clone <repo-url>
-cd CyberSec
+cd DeepfakeDetection
 ```
 
 ### 2. Create and activate conda environment
